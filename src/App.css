@@ -216,3 +216,56 @@
   border: 1px solid #333333;
   box-sizing: border-box;
 }
+
+
+/* Mobile-Friendly Design */
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .home {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .page {
+    padding: 60px 20px;
+  }
+
+  .page h1 {
+    font-size: 32px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}

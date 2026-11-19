@@ -1,0 +1,13 @@
+
+/* Remove default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Prevent unwanted horizontal scrolling */
+body {
+  min-width: 320px;
+  background-color: #0d0d0d;
+}

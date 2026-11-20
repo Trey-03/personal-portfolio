@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:3000/api',
+    baseURL: 'https://portfoliobackend-1-9p28.onrender.com/api',
     headers: {
         'Content-Type': 'application/json'
     }
